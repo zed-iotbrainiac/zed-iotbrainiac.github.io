@@ -1,4 +1,12 @@
 ---
-title: IoT Brainiac's blog
+layout: default
+title: IoT Brainiac's Blog
+permalink: /blog/
 ---
-author: zed
+
+# Blog Posts
+
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
