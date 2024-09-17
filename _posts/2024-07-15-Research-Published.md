@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Thesis Published!!"
-permalink: /thesis-published/
+date: 2024-07-15
 ---
 
 # My Thesis Published in PoPETS
